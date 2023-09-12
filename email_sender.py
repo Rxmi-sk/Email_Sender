@@ -16,11 +16,11 @@ email_receivers = {
     3 : 'XDSDD@gmail.com',
     4 : 'SDFDD@gmail.com'} # Dictionary containing emails of receivers
 
-subject = 'Finish the Tkinter project'
+subject = 'Finish the Tkinter project'      #Subject of Email
 
-body ="""
+body = """                           
  Complete it now!!!!!!!
- """
+ """            #Body of Email
 x=1
 while x < len(email_receivers):    
     email=EmailMessage()
